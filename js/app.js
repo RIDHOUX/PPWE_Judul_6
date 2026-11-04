@@ -124,7 +124,7 @@ async function openEditModal(id) {
         if (response.ok && result.data) {
                        
             // Percobaan 6-3 Langkah 3
-            
+
         } else {
             showAlert(result.message || 'Gagal memuat detail mahasiswa', 'danger');
         }
